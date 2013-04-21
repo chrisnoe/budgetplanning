@@ -33,9 +33,10 @@
         <type>Default</type>
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Stores the budget months used within the budget plan.</description>
     <enableActivities>false</enableActivities>
     <enableFeeds>false</enableFeeds>
-    <enableHistory>false</enableHistory>
+    <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
     <fields>
         <fullName>Customer_Budget_Plan__c</fullName>
@@ -46,6 +47,7 @@
         <relationshipName>Budget_Months</relationshipName>
         <relationshipOrder>0</relationshipOrder>
         <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
         <type>MasterDetail</type>
         <writeRequiresMasterRead>false</writeRequiresMasterRead>
     </fields>
@@ -54,11 +56,13 @@
         <externalId>false</externalId>
         <label>Month</label>
         <required>false</required>
+        <trackHistory>false</trackHistory>
         <type>Date</type>
     </fields>
     <label>Budget Month</label>
     <nameField>
         <label>Budget Month Name</label>
+        <trackHistory>false</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Budget Months</pluralLabel>

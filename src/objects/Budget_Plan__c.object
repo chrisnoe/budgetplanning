@@ -33,7 +33,9 @@
         <type>Default</type>
     </actionOverrides>
     <deploymentStatus>Deployed</deploymentStatus>
+    <description>Stores the budget plan header information and links the budget plan to a customer account.</description>
     <enableActivities>true</enableActivities>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
     <enableFeeds>false</enableFeeds>
     <enableHistory>true</enableHistory>
     <enableReports>true</enableReports>
@@ -86,13 +88,13 @@
             </picklistValues>
             <sorted>false</sorted>
         </picklist>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Picklist</type>
     </fields>
     <label>Budget Plan</label>
     <nameField>
         <label>Budget Plan Name</label>
-        <trackHistory>false</trackHistory>
+        <trackHistory>true</trackHistory>
         <type>Text</type>
     </nameField>
     <pluralLabel>Budget Plans</pluralLabel>
